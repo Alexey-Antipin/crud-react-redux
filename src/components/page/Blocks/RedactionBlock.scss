@@ -1,0 +1,15 @@
+.Page__controlButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 50%;
+    .Page__Button {
+        border-radius: 15px;
+        border: 2px solid rgba(250, 156, 68, 0.39);
+        height: 60px;
+        width: 250px;
+        margin-bottom: 5px;
+        font-size: 25px;
+        background: rgba(0, 255, 191, 0.336);
+    }
+}

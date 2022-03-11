@@ -1,0 +1,62 @@
+.Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .Page__SeeBlock {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 50%;
+        .Poster {
+            position: relative;
+            background: #a9e3ebbb;
+            margin: 10px;
+            height: 100px;
+            width: 100px;
+        }
+        .Poster__Border {
+            border: 20px solid transparent;
+            border-left: 20px solid rgba(255, 123, 0, 0.568);
+            border-top: 20px solid rgba(206, 255, 29, 0.699);
+            height: 0.9px;
+            width: 0.9px;
+        }
+        .Poster__Number {
+            font-size: 25px;
+            text-align: center;
+        }
+        .Descreen {
+            display: none;
+            padding: 10px;
+            border: 3px solid #4cffb493;
+            border-bottom: solid rgb(255, 187, 187);
+            border-right: solid rgb(255, 187, 187);
+            border-radius: 15px;
+            top: 120px;
+            margin-left: -150px;
+            margin-top: -50px;
+            background: hsla(209, 66%, 88%, 0.945);
+            height: 200px;
+            width: 400px;
+            .Page__Block {
+                overflow: hidden;
+                height: 100%;
+                width: 50%;
+                float: left;
+                .Page__Text {
+                    float: left;
+                    font-size: 25px;
+                    width: 100%;
+                    word-wrap: break-word;
+                }
+            }
+        }
+        .Poster:hover .Descreen {
+            display: block;
+            margin-right: 15px;
+            position: absolute;
+            z-index: 9999;
+        }
+    }
+}

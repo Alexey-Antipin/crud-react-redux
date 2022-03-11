@@ -1,0 +1,51 @@
+.Logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    .Logo__animation {
+        animation-name: animation_rotate;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        .Logo__logo_up {
+            box-sizing: border-box;
+            height: 100%;
+            width: 100%;
+            background-color: rgb(224, 204, 178);
+            border: 10px solid antiquewhite;
+            border-radius: 50%;
+            padding: 25px;
+            overflow: hidden;
+        }
+        .Logo__logo_down {
+            top: 50%;
+            left: 50%;
+            height: 300px;
+            width: 300px;
+        }
+    }
+    .Logo__text {
+        margin-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-style: italic;
+        background-color: antiquewhite;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        border-radius: 15px;
+        font-size: 25px;
+        h3 {
+            text-align: center;
+        }
+    }
+}
+
+@keyframes animation_rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

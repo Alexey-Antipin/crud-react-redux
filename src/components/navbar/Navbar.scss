@@ -1,0 +1,19 @@
+.Navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 255, 242);
+    .Navbar__button_menu {
+        background-color: rgb(161, 248, 229);
+        border-radius: 10px;
+        border-color: rgba(65, 65, 65, 0.596);
+        font-size: 15px;
+        padding: 10px;
+    }
+    .Navbar__button {
+        background-color: rgb(161, 248, 229);
+        border-radius: 10px;
+        border-color: rgba(65, 65, 65, 0.596);
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+}
