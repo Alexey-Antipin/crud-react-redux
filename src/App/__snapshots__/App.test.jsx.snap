@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App App snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="Apps"
+    >
+      <div
+        class="Navbar"
+      >
+        <header>
+          <button
+            class="Navbar__button"
+          >
+            <a
+              href="/PageTodo"
+            >
+              Список todo
+            </a>
+          </button>
+        </header>
+      </div>
+      <div
+        class="Logo"
+      >
+        <div
+          class="Logo__animation"
+        >
+          <div
+            class="Logo__logo_up"
+          >
+            <img
+              alt="logo"
+              class="Logo__logo_down"
+              src="sches.svg"
+            />
+          </div>
+        </div>
+        <div
+          class="Logo__text"
+        >
+          <h3>
+            Добро пожаловать
+          </h3>
+          на главную страницу, чтобы перейти 
+          <br />
+          к Todo листу, наверху есть кнопка,
+          <br />
+          кликните по ней "Список todo".
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Navbar spanshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Navbar"
+  >
+    <header>
+      <button
+        class="Navbar__button"
+      />
+    </header>
+  </div>
+</DocumentFragment>
+`;

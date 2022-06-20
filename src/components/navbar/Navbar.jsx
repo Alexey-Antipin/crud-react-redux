@@ -4,7 +4,7 @@ import "../navbar/Navbar.scss";
 
 export const Navbar = () => {
 
-    const [turnOff, setturnOff] = useState(false)
+    const [turnOff, setturnOff] = useState(true)
 
     const clickHandler = () => {
         setturnOff(!turnOff)
